@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Busqueda
+        </title>
+        <link href="css/estilo2.css" rel="stylesheet" type="text/css">
+        </link>
+        <script src="https://code.jquery.com/jquery-3.5.0.js">
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <filter class="col-3">
+                    <select aria-label="Default select example" class="form-select">
+                        <option selected="" value="0">
+                            Filtrar por ...
+                        </option>
+                        <option value="1">
+                            Género
+                        </option>
+                        <option value="2">
+                            Año
+                        </option>
+                    </select>
+                </filter>
+                <filter class="col">
+                    <ul>
+                        <li class="horizontal">
+                            Género
+                            <a data-filtro="1" href="#">
+                                X
+                            </a>
+                        </li>
+                        <li class="horizontal">
+                            Año
+                            <a data-filtro="2" href="#">
+                                X
+                            </a>
+                        </li>
+                    </ul>
+                </filter>
+            </header>
+            <main class="row">
+                <aside class="col-3">
+                    <filter class="form-check" data-tipo="checkbox">
+                        <br>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Arcade">
+                                    <label class="form-check-label" for="arcade">
+                                        Arcade
+                                    </label>
+                                </input>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Aventuras">
+                                    <label class="form-check-label" for="aventuras">
+                                        Aventuras
+                                    </label>
+                                </input>
+                            </div>
+                        </br>
+                    </filter>
+                    <filter data-tipo="input">
+                        <br>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="año">
+                                    Año
+                                </span>
+                                <input aria-describedby="año" class="form-control" type="text">
+                                </input>
+                            </div>
+                        </br>
+                    </filter>
+                </aside>
+                <section class="col">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td>
+                                    Título
+                                </td>
+                                <td>
+                                    Género
+                                </td>
+                                <td>
+                                    Año
+                                </td>
+                                <td>
+                                    Precio
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Assassin’s Creed® Brotherhood
+                                </td>
+                                <td>
+                                    Carreras
+                                </td>
+                                <td>
+                                    2020
+                                </td>
+                                <td>
+                                    50
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Bionic Commando: Rearmed
+                                </td>
+                                <td>
+                                    Deportes
+                                </td>
+                                <td>
+                                    2015
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Darksiders
+                                </td>
+                                <td>
+                                    Arcade
+                                </td>
+                                <td>
+                                    2019
+                                </td>
+                                <td>
+                                    45
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+        </div>
+        <script src="js/jquery2.js">
+        </script>
+    </body>
+</html>
