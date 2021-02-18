@@ -15,5 +15,5 @@
    *notificacion.html*.
 
 5. Y por último, tenemos los 2 archivos:
-    - *index.html* el cual mostrará 2 botones: [El de la **izquierda** para la **Notificación**] y [El de la **derecha** para la **Tabla**].
+    - *index.html* el cual mostrará 2 botones: [El de la **izquierda** para la **Notificación**] y [El de la **derecha** para la **Tabla** (Recuerda tener algún programa para            evita problemas con el CORS)].
     - *notificacion.html* el cual mostrará el select, la tabla, el input...
